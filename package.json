@@ -1,0 +1,13 @@
+{
+  "name": "snake-game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js",
+    "proxy": "ngrok http 5173"
+  },
+  "devDependencies": {
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
